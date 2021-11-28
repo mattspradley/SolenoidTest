@@ -43,7 +43,7 @@ public class Robot extends TimedRobot {
      * the button is pressed; Set takes a boolean for whether
      * to use the default (false) channel or the other (true).
      */
-    m_solenoid.set(m_aButton.get());
+    m_solenoid.set(true);
 
     // /*
     //  * In order to set the double solenoid, if just one button
